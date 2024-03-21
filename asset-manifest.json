@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fit-Gym/static/css/main.2cb3e374.css",
-    "main.js": "/Fit-Gym/static/js/main.94700f67.js",
+    "main.js": "/Fit-Gym/static/js/main.75421886.js",
     "static/media/dumbbell-incline-chest-press.gif": "/Fit-Gym/static/media/dumbbell-incline-chest-press.608adf5ee7e2b5d3e168.gif",
     "static/media/victor-freitas-WvDYdXDzkhs-unsplash.jpg": "/Fit-Gym/static/media/victor-freitas-WvDYdXDzkhs-unsplash.69a1114c538743cbfd4c.jpg",
     "static/media/sam-moghadam-khamseh-vOZP2LojrHI-unsplash.jpg": "/Fit-Gym/static/media/sam-moghadam-khamseh-vOZP2LojrHI-unsplash.1d7911b8b3d575ad8333.jpg",
@@ -38,10 +38,10 @@
     "static/media/_services_horizontal_3.jpg": "/Fit-Gym/static/media/6091b6fb81b2a92b0d466022_services_horizontal_3.f80f527bcf788b4b08ac.jpg",
     "index.html": "/Fit-Gym/index.html",
     "main.2cb3e374.css.map": "/Fit-Gym/static/css/main.2cb3e374.css.map",
-    "main.94700f67.js.map": "/Fit-Gym/static/js/main.94700f67.js.map"
+    "main.75421886.js.map": "/Fit-Gym/static/js/main.75421886.js.map"
   },
   "entrypoints": [
     "static/css/main.2cb3e374.css",
-    "static/js/main.94700f67.js"
+    "static/js/main.75421886.js"
   ]
 }

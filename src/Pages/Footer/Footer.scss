@@ -1,0 +1,40 @@
+@import "../../style/color.scss";
+
+.Footer {
+  margin-top: 200px;
+  width: 100%;
+  height: 800px;
+  background-image: url("../../assets/images/victor-freitas-WvDYdXDzkhs-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: $second-text;
+    width: 35%;
+  }
+
+  .footer-btn {
+    width: 150px;
+    background-color: $primary-color;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 996px) {
+  .Footer {
+    margin-top: 100px;
+    height: 450px;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      width: 90%;
+    }
+  }
+}

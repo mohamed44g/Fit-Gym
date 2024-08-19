@@ -1,0 +1,32 @@
+@import "../../style/color.scss";
+
+.Services-card {
+  width: 25%;
+  height: fit-content;
+  background-color: transparent;
+  border: 1px solid #4f5153;
+  border-radius: 0;
+  color: #fff;
+  padding: 15px 10px;
+
+  p {
+    color: $second-text;
+  }
+
+  .Services-card-img {
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 600px) {
+  .Services-card {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 996px) {
+  .Services-card {
+    width: 50%;
+    height: 200px;
+  }
+}

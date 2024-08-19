@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Feedback {
   margin-top: 200px;
   .Feedback-cards {
@@ -13,3 +14,20 @@
     }
   }
 }
+=======
+.Feedback {
+  margin-top: 200px;
+  .Feedback-cards {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 996px) {
+  .Feedback {
+    margin-top: 100px;
+    .Feedback-cards {
+      margin-top: 100px;
+    }
+  }
+}
+>>>>>>> 90b992db25db3febd6857dd866a86cc872b19690

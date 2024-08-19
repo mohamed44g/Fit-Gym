@@ -1,3 +1,161 @@
+<<<<<<< HEAD
+@import "../../style/color.scss";
+
+
+// Container Styles
+.CaloriesCalc {
+  .CaloriesCalc-form-container {
+    width: 80%;
+    margin: 60px auto 0;
+    border: 1px solid #4f5153;
+    padding: 80px 50px;
+    height: fit-content;
+
+    .CaloriesCalc-title {
+      color: $primary-color;
+    }
+
+    // Shared Form Styles
+    .CaloriesCalc-form,
+    .Food-form {
+      margin-top: 80px;
+      width: 90%;
+    }
+
+    // Input Container Styles
+    .input-con,
+    .Food-input-con {
+      width: 50%;
+      margin-bottom: 40px;
+    }
+
+    // Input Styles
+    .input,
+    .Food-input,
+    .activity {
+      width: 150px;
+      border: 0;
+      border-bottom: 1px solid #4f5153;
+      background-color: #141414;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .Food-input {
+      width: 200px;
+    }
+
+    .activity {
+      margin-top: 10px;
+      width: 300px;
+    }
+
+    // Label Styles
+    .label,
+    .Gender-label {
+      color: $second-text;
+    }
+
+    .Gender-label {
+      display: block;
+    }
+
+    // Submit Button Styles
+    .submit {
+      width: 100%;
+
+      input {
+        width: 100px;
+        height: 30px;
+        background-color: $primary-color;
+        border: 0;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  // Result Styles
+  .resuilt {
+    margin-top: 100px;
+    width: 80%;
+    margin: 100px auto 0;
+  }
+}
+
+// Responsive Styles
+@media only screen and (max-width: 600px) {
+  .CaloriesCalc {
+    .CaloriesCalc-form-container {
+      width: 95%;
+      padding: 70px 40px;
+
+      .CaloriesCalc-form {
+        margin-top: 70px;
+        width: 100%;
+      }
+
+      .input-con {
+        width: 70%;
+        margin-bottom: 30px;
+      }
+
+      .activity {
+        width: 200px;
+      }
+
+      .submit input {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .CaloriesCalc {
+    .CaloriesCalc-form-container {
+      width: 95%;
+      padding: 70px 40px;
+
+      .CaloriesCalc-form {
+        margin-top: 70px;
+        width: 100%;
+      }
+
+      .input-con {
+        width: 70%;
+        margin-bottom: 30px;
+      }
+
+      .activity {
+        width: 200px;
+      }
+
+      .submit input {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .CaloriesCalc {
+    .CaloriesCalc-form-container {
+      width: 95%;
+      padding: 70px 40px;
+    }
+  }
+
+  .resuilt {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .resuilt {
+    width: 50%;
+  }
+}
+=======
 @import "../../style/color.scss";
 
 .CaloriesCalc {
@@ -166,3 +324,4 @@
     width: 50%;
   }
 }
+>>>>>>> 90b992db25db3febd6857dd866a86cc872b19690

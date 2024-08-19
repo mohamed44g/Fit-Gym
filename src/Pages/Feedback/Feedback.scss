@@ -1,0 +1,16 @@
+
+.Feedback {
+  margin-top: 200px;
+  .Feedback-cards {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 996px) {
+  .Feedback {
+    margin-top: 100px;
+    .Feedback-cards {
+      margin-top: 100px;
+    }
+  }
+}

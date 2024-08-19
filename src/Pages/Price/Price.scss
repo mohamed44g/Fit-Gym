@@ -1,0 +1,35 @@
+
+.Prices {
+  margin-top: 200px;
+  .Prices-cards {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .Prices {
+    margin-top: 100px;
+    .Prices-cards {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .Prices {
+    margin-top: 100px;
+    .Prices-cards {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .Prices {
+    margin-top: 100px;
+
+    .Prices-cards {
+      margin-top: 100px;
+    }
+  }
+}

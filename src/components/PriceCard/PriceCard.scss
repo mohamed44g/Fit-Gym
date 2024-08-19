@@ -1,0 +1,87 @@
+@import "../../style//color.scss";
+
+.Prices-card {
+  width: 25%;
+  height: 540px;
+  border: 1px solid #4f5153;
+  padding: 60px;
+  border-radius: 10px;
+  transition: 1s;
+  visibility: hidden;
+
+  &:hover {
+    background-color: $primary-color;
+    color: #101010;
+    transform: scale(110%);
+
+    .Prices-card-btn {
+      color: #fff;
+      background-color: #101010;
+    }
+  }
+
+  .Prices-card-features-list {
+    list-style: none;
+  }
+
+  .Prices-card-btn {
+    width: 100px;
+    margin-top: 50px;
+    border: 1px solid $primary-color;
+    color: #101010;
+    background-color: $primary-color;
+  }
+}
+
+.Prices-card:nth-of-type(2) {
+  background-color: $primary-color;
+  color: #101010;
+
+  .Prices-card-btn {
+    color: #fff;
+    background-color: #101010;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .Prices-card {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .Prices-card {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .Prices-card {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .Prices-card {
+    width: 51%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+  }
+}
+
+@media only screen and (min-width: 996px) and (max-width: 1200px) {
+  .Prices {
+    .Prices-card {
+      width: 30%;
+      margin: auto;
+      margin-bottom: 50px;
+      padding: 50px;
+    }
+  }
+}

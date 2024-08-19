@@ -1,0 +1,42 @@
+@import "../../style//color.scss";
+.circular-progress {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: conic-gradient(#f8b833 100 * 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.progress-value {
+  position: relative;
+  font-size: 27px;
+  font-weight: 600;
+  color: $primary-color;
+}
+
+.progress-text {
+  color: $primary-text;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.progress-con {
+  margin: 0 20px;
+  width: 150px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+  .progress-con {
+    margin-bottom: 50px;
+  }
+}

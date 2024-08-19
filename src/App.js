@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { lazy, Suspense } from "react";
 import "./style/main.scss"; // If main.scss is global, keep it here
 
@@ -22,28 +22,7 @@ function App() {
         <Footer />
       </div>
     </Suspense>
-=======
-import React from "react";
-import HomePage from "./Pages/Home/index.js";
-import "./style/main.scss";
-import Services from "./Pages/Services";
-import ChooseUs from "./Pages/ChooseUs/index.js";
-import Prices from "./Pages/Price/index.js";
-import Feedback from "./Pages/Feedback/index.js";
-import Footer from "./Pages/Footer/index.js";
-
-function App() {
-  return (
-    <div className="App">
-      <HomePage />
-      <Services />
-      <ChooseUs />
-      <Prices />
-      <Feedback />
-      <Footer />
-    </div>
->>>>>>> 90b992db25db3febd6857dd866a86cc872b19690
-  );
+  )
 }
 
 export default App;
